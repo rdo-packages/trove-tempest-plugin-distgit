@@ -1,12 +1,23 @@
+%{!?upstream_version: %global upstream_version %{commit}}
+%global commit fa807b780062ea30aaeebdc37d650f071a98b09c
+%global shortcommit %(c=%{commit}; echo ${c:0:7})
+# DO NOT REMOVE ALPHATAG
+%global alphatag .%{shortcommit}git
+
 %global service trove
 %global plugin trove-tempest-plugin
 %global module trove_tempest_plugin
 %global with_doc 1
 
-%{!?upstream_version: %global upstream_version %{version}%{?milestone}}
-
 %if 0%{?fedora}
 %global with_python3 1
+%endif
+
+
+%if 0%{?dlrn}
+%define tarsources %module
+%else
+%define tarsources %plugin
 %endif
 
 %global common_desc \
@@ -16,13 +27,13 @@ into Tempest.
 
 Name:       python-%{service}-tests-tempest
 Epoch:      1
-Version:    XXX
-Release:    XXX
+Version:    0.0.1
+Release:    0.2%{?alphatag}%{?dist}
 Summary:    Tempest Integration of Trove Project
 License:    ASL 2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
 
-Source0:    http://tarballs.openstack.org/%{plugin}/%{plugin}-%{upstream_version}.tar.gz
+Source0:    http://github.com/openstack/%{plugin}/archive/%{commit}.tar.gz#/%{plugin}-%{shortcommit}.tar.gz
 
 BuildArch:  noarch
 BuildRequires:  git
@@ -81,7 +92,7 @@ Requires:   python3-testtools
 %endif
 
 %prep
-%autosetup -n %{module}-%{upstream_version} -S git
+%autosetup -n %{tarsources}-%{upstream_version} -S git
 
 # Let's handle dependencies ourseleves
 %py_req_cleanup
@@ -128,3 +139,5 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Thu Aug 23 2018 Chandan Kumar <chkumar@redhat.com> 0.0.1-0.2.fa807b78git
+- Update to pre-release 0.0.1 (fa807b780062ea30aaeebdc37d650f071a98b09c)
