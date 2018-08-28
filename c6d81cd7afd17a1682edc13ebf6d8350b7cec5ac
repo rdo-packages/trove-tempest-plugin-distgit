@@ -1,0 +1,73 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_9fc5f25c",
+        "filename": "python-trove-tests-tempest.spec",
+        "patchSetId": 6
+      },
+      "lineNbr": 17,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-08-28T10:41:26Z",
+      "side": 1,
+      "message": "can remove this",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 17,
+        "endChar": 6
+      },
+      "revId": "c6d81cd7afd17a1682edc13ebf6d8350b7cec5ac",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_7fa1fea8",
+        "filename": "python-trove-tests-tempest.spec",
+        "patchSetId": 6
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-08-28T10:41:26Z",
+      "side": 1,
+      "message": "this as well",
+      "range": {
+        "startLine": 32,
+        "startChar": 88,
+        "endLine": 32,
+        "endChar": 130
+      },
+      "revId": "c6d81cd7afd17a1682edc13ebf6d8350b7cec5ac",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "9abe1de1_5fa63ac2",
+        "filename": "python-trove-tests-tempest.spec",
+        "patchSetId": 6
+      },
+      "lineNbr": 91,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-08-28T10:41:26Z",
+      "side": 1,
+      "message": "module",
+      "range": {
+        "startLine": 91,
+        "startChar": 16,
+        "endLine": 91,
+        "endChar": 26
+      },
+      "revId": "c6d81cd7afd17a1682edc13ebf6d8350b7cec5ac",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
