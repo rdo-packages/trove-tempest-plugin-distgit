@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9abe1de1_1f2b2232",
+        "filename": "python-trove-tests-tempest.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 32,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2018-08-28T10:14:14Z",
+      "side": 1,
+      "message": "tarsources",
+      "range": {
+        "startLine": 32,
+        "startChar": 92,
+        "endLine": 32,
+        "endChar": 98
+      },
+      "revId": "ba1f092c1708fe864df201e2f0fce488b13f00a9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
