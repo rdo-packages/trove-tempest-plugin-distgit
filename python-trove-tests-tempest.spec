@@ -12,8 +12,8 @@ into Tempest.
 
 Name:       python-%{service}-tests-tempest
 Epoch:      1
-Version:    XXX
-Release:    XXX
+Version:    1.0.0
+Release:    1%{?dist}
 Summary:    Tempest Integration of Trove Project
 License:    ASL 2.0
 URL:        https://git.openstack.org/cgit/openstack/%{plugin}/
@@ -98,3 +98,6 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Thu Apr 30 2020 RDO <dev@lists.rdoproject.org> 1:1.0.0-1
+- Update to 1.0.0
+
