@@ -98,3 +98,4 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/trove-tempest-plugin/commit/?id=31894c68e4b6b5b1a68578a7bf62ee305bbb3bc5
