@@ -46,6 +46,7 @@ Requires:   python3-oslo-log >= 3.44.1
 Requires:   python3-oslo-service >= 1.40.1
 Requires:   python3-oslotest >= 3.2.0
 Requires:   python3-PyMySQL >= 0.7.6
+Requires:   python3-psycopg2 >= 2.6.2
 Requires:   python3-requests >= 2.14.2
 Requires:   python3-sqlalchemy >= 1.0.10
 Requires:   python3-tenacity >= 5.1.1
