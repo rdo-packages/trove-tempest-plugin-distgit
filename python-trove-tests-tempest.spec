@@ -50,6 +50,7 @@ Requires:   python3-psycopg2 >= 2.6.2
 Requires:   python3-requests >= 2.14.2
 Requires:   python3-sqlalchemy >= 1.0.10
 Requires:   python3-tenacity >= 5.1.1
+Requires:   python3-psycopg2-binary >= 2.6.2
 
 %description -n python3-%{service}-tests-tempest
 %{common_desc}
