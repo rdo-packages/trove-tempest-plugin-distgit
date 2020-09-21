@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fce3b7a4_3ef7cb00",
+        "filename": "python-trove-tests-tempest.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 49,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2020-09-21T05:55:25Z",
+      "side": 1,
+      "message": "Line 49 Requires:   python3-psycopg2 \u003e\u003d 2.6.2 will cover it.",
+      "range": {
+        "startLine": 49,
+        "startChar": 0,
+        "endLine": 49,
+        "endChar": 37
+      },
+      "revId": "027db9c8b9f3e08e499b3f87add0a3d5414eb496",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
