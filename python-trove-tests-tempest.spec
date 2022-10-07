@@ -61,6 +61,7 @@ Requires:   python3-PyMySQL >= 0.7.6
 Requires:   python3-psycopg2 >= 2.6.2
 Requires:   python3-requests >= 2.14.2
 Requires:   python3-sqlalchemy >= 1.0.10
+Requires:   python3-sqlalchemy < 1.4.0
 Requires:   python3-tenacity >= 5.1.1
 
 %description -n python3-%{service}-tests-tempest
