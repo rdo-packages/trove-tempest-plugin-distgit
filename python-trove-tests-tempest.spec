@@ -20,7 +20,7 @@ into Tempest.
 
 Name:       python-%{service}-tests-tempest
 Epoch:      1
-Version:    2.3.0
+Version:    2.3.1
 Release:    1%{?dist}
 Summary:    Tempest Integration of Trove Project
 License:    Apache-2.0
@@ -118,6 +118,9 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Mon Apr 01 2024 RDO <dev@lists.rdoproject.org> 1:2.3.1-1
+- Update to 2.3.1
+
 * Fri Mar 22 2024 RDO <dev@lists.rdoproject.org> 1:2.3.0-1
 - Update to 2.3.0
 
